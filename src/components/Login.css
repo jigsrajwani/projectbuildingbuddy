@@ -1,0 +1,6 @@
+.login-container {
+    background-image: url("../img/fondo\ login.svg");
+    background-size: cover; /* Ajusta el tamaño para cubrir todo el contenedor */
+    background-position: center; /* Centra el fondo */
+    /* Otras propiedades de estilo aquí */
+}

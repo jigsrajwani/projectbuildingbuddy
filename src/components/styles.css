@@ -1,0 +1,111 @@
+:root {
+  --color-primary: #10364b;
+  --color-secondary: #468189;
+  --color-accent: #77ACA2;
+  --color-light: rgb(157, 190, 187);
+  --color-background: #F4E9CD;
+}
+
+body {
+  background-color: rgba(244, 233, 205, 0.6); /* Fondo claro con transparencia 0.6 */
+  color: var(--color-primary);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.navbar-custom {
+  background-color: var(--color-secondary) !important;
+  color: white;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: white !important;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: var(--color-accent);
+  margin: 0 auto;
+  border: none;
+}
+
+.background-container {
+  background-color: rgba(244, 233, 205, 0.6); /* Fondo con transparencia 0.6 */
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-link:hover {
+  background-color: #C2FAFB;
+  border-radius: 5px;
+}
+
+.form-container {
+  background-color: rgba(157, 190, 187, 0.6); /* Fondo con transparencia 0.6 */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control-lg {
+  border: 1px solid var(--color-secondary);
+}
+
+.btn-lg {
+  font-size: 1.2rem;
+  width: 300px;
+  height: 100px;
+  margin: 8px;
+  background-color: var(--color-light) !important; /* Añadimos !important */
+  color: white !important; /* Para asegurar que el texto sea blanco */
+  border: none !important; /* Para eliminar el borde */
+}
+
+.btn-lg:hover {
+  background-color: var(--color-accent) !important; /* Cambia el color en hover */
+}
+
+.btn-lg-2 {
+  font-size: 1.2rem;
+  width: 300px;
+  height: 60px;
+  margin: 8px;
+  background-color: var(--color-primary) !important; /* Añadimos !important */
+  color: white !important; /* Para asegurar que el texto sea blanco */
+  border: none !important; /* Para eliminar el borde */
+}
+
+.btn-lg-2:hover {
+  color: black !important; 
+  background-color: var(--color-background) !important; /* Cambia el color en hover */
+}
+
+.btn-primary {
+  background-color: var(--color-accent);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-accent);
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
